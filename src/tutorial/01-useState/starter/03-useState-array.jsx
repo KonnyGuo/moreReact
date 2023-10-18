@@ -1,8 +1,12 @@
 import { data } from "../../../data";
 import { useState } from "react";
 
+// Hooks - Functions that let you "hook into" React features like state and lifecycle methods from function components. Examples: useState, useEffect, useContext, etc.
 // hook rules
 // Component must be captialized, keyword "use", don't call hooks conditionally, invoke instead function or component body,
+
+// State - Data maintained within a component that can be updated to trigger re-renders when it changes.
+// if you are manipulating list then useState is prob needed
 
 const UseStateArray = () => {
   // const [data, useData] = useState(data);
