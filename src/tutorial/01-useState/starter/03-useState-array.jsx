@@ -6,7 +6,7 @@ import { useState } from "react";
 // Component must be captialized, keyword "use", don't call hooks conditionally, invoke instead function or component body,
 
 // State - Data maintained within a component that can be updated to trigger re-renders when it changes.
-// if you are manipulating list then useState is prob needed
+// if you are manipulating list then useState is prob needed else if data is not changing useState will not be nesscary tho it is common practice to set it up just in case of potential use
 
 const UseStateArray = () => {
   // const [data, useData] = useState(data);
