@@ -1,6 +1,7 @@
 import { useState } from "react";
 //can also type React.useState
 //need to invoke function
+//render-> application loads in. rerender -> refresh
 
 // useState (function we get from react) -> array with 2 elements (current state value and func to update state value and in function pass in default value (string num arr etc)), value is perserved in rerender
 
