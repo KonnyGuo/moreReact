@@ -8,7 +8,11 @@ const UseStateGotcha = () => {
   };
   return (
     <div>
-      <button onClick={handleClick}> click here </button>
+      <h1> {value} </h1>
+      <button type="button" className="btn" onClick={handleClick}>
+        {" "}
+        click here{" "}
+      </button>
     </div>
   );
 };
