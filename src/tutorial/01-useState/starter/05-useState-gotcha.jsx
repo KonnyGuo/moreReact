@@ -4,15 +4,22 @@ import { useState } from "react";
 const UseStateGotcha = () => {
   const [value, setValue] = useState(0);
 
-  const handleClick = () => {
-    // setValue(value + 1);
+  // const handleClick = () => {
+  //   // setValue(value + 1);
 
-    setValue((currentState) => {
-      const newState = currentState + 1;
-      console.log(newState);
-      return newState;
-    });
-    // console.log(value);
+  //   setValue((currentState) => {
+  //     const newState = currentState + 1;
+  //     console.log(newState);
+  //     return newState;
+  //   });
+  //   // console.log(value);
+  // };
+
+  const handleClick = () => {
+    console.log("clicked");
+    setTimeout(() => {
+      setValue(value + 1);
+    }, 3000);
   };
   return (
     <div>
