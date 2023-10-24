@@ -12,11 +12,7 @@ const UseStateObject = () => {
   // const [hobby, setHobby] = useState("reading");
 
   const displayPerson = () => {
-    setPerson({
-      name: "john",
-      age: 25,
-      hobby: "running",
-    });
+    setPerson({ ...person, name: "john" });
     // setName("john");
     // setAge(25);
     // setHobby("running");

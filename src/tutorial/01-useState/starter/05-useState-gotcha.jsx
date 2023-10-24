@@ -15,10 +15,15 @@ const UseStateGotcha = () => {
   //   // console.log(value);
   // };
 
+  // without using function, setValue by itself will only increase by +1 every 3 seconds
+  // with function, the setValue will update without having to wait every 3 seconds
   const handleClick = () => {
     console.log("clicked");
     setTimeout(() => {
-      setValue(value + 1);
+      setValue((currentState) => {
+        const newState = currentState + 1;
+        return newState;
+      });
     }, 3000);
   };
   return (
