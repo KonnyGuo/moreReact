@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 const url = "https://api.github.com/users/QuincyLarson";
+// diff between fetch and axios is fetch does not consider response in 400 or 500 to be error
 
 const MultipleReturnsFetchData = () => {
   const [user, setUser] = useState(null);
