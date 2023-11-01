@@ -35,6 +35,7 @@ const MultipleReturnsFetchData = () => {
     return <h2> error detected </h2>;
   }
 
+  // need to destructure after condition as user is null before fetch
   const { avatar_url, name, bio, company } = user;
 
   return (
