@@ -43,4 +43,5 @@ const MultipleReturnsFetchData = () => {
     </div>
   );
 };
+
 export default MultipleReturnsFetchData;
