@@ -2,6 +2,10 @@ import { useEffect, useState } from "react";
 const url = "https://api.github.com/users/QuincyLarson";
 // diff between fetch and axios is fetch does not consider response in 400 or 500 to be error
 
+// someObject = {name: obj1}
+// someObject.name, someObject.propertyThatDoesNotExist (underfine) is all ok
+// const randomVal = null, randomVal.name is not ok
+
 const MultipleReturnsFetchData = () => {
   const [user, setUser] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
