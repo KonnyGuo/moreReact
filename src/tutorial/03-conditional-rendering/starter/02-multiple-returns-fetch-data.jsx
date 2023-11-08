@@ -6,6 +6,7 @@ const url = "https://api.github.com/users/QuincyLarson";
 // someObject.name, someObject.propertyThatDoesNotExist (underfine) is all ok
 // const randomVal = null, randomVal.name is not ok
 // examples are noted below with placement of destructuring user
+// use ? for optional chaining
 
 const MultipleReturnsFetchData = () => {
   const [user, setUser] = useState(null);
