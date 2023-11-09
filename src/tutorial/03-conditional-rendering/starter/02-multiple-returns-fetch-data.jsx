@@ -7,6 +7,8 @@ const url = "https://api.github.com/users/QuincyLarson";
 // const randomVal = null, randomVal.name is not ok
 // examples are noted below with placement of destructuring user
 // use ? for optional chaining
+// take away is that order does matter
+// Rule: don't move hooks conditionally
 
 const MultipleReturnsFetchData = () => {
   const [user, setUser] = useState(null);
