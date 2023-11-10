@@ -9,6 +9,7 @@ const url = "https://api.github.com/users/QuincyLarson";
 // use ? for optional chaining
 // take away is that order does matter
 // Rule: don't move hooks conditionally
+// do not add fetchData to dependency array, if function fetchUser is outside the useEffect ignore lint warnings. Will not have a problem if react made using vite
 
 const MultipleReturnsFetchData = () => {
   const [user, setUser] = useState(null);
