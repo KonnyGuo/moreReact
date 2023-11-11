@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 const Example = () => {
   const [condition, setCondition] = useState(true);
   // if (condition) {
+
   //   // won't work, cannot place hook inside if condition
   //   const [state, setState] = useState(false);
   // }
