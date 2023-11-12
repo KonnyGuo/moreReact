@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 
+// (condition)
 // falsly values in js include 0, false, empty string, null, underfine, nan
 // truthy values includes objects and arrays
 
