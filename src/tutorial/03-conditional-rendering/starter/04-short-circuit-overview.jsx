@@ -8,8 +8,23 @@ import { useState } from "react";
 // using ||, returns first operand if truthy. Return second operand first one is falsy
 
 const ShortCircuitOverview = () => {
-  const [condition, setCondition] = useState(true);
+  // falsy
+  const [condition, setCondition] = useState("");
 
-  return <h2>short circuit overview</h2>;
+  // truthy. Susan as default
+  const [name, setName] = useState("susan");
+
+  return (
+    <div>
+      {/* hello world should get displayed because condition is falsy (empty string)*/}
+      <h2> falsy OR : {condition || "hello world"}</h2>
+      {/* empty string returned because its falsy */}
+      <h2> falsy AND : {condition && "hello world"}</h2>
+      {/* name (susan) return because its truthy */}
+      <h2> Truthy OR : {name || "hello world"}</h2>
+      {/* hello world return because name is truthy */}
+      <h2> Truthy AND : {name && "hello world"}</h2>
+    </div>
+  );
 };
 export default ShortCircuitOverview;
