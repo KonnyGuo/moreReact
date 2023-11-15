@@ -14,7 +14,7 @@ const ShortCircuitExamples = () => {
   // truthy
   const [name, setName] = useState("susan");
   const [user, setUser] = useState({ name: "john" });
-  const [isEditing, setIsEditing] = useState(false);
+  const [isEditing, setIsEditing] = useState(true);
 
   return (
     <div>
@@ -29,6 +29,11 @@ const ShortCircuitExamples = () => {
       )} */}
       {/* since user is truthy, evaluate NameComponent */}
       {user && <NameComponent name={user.name} />}
+      <h2 style={{ margin: "1rem 0" }}> Ternary Op</h2>
+      <button className="btn">
+        {" "}
+        {isEditing ? "statement true" : "statement false"}{" "}
+      </button>
     </div>
   );
 };
