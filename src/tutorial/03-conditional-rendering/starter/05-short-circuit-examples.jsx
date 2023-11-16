@@ -2,7 +2,8 @@ import { useState } from "react";
 
 // can use and/or inside elements and control what we want to return
 // ! not operator negates boolean
-// components must be capitalized do nto forget
+// components must be capitalized do not forget
+// review props
 
 const NameComponent = ({ name }) => {
   return <h4>Hello there user {name}</h4>;
