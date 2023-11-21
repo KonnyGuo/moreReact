@@ -14,11 +14,24 @@ const ToggleChallenge = () => {
 
   return (
     <div>
-      <button className="" onClick={toggleAlert}>
+      {/* method 1 */}
+      {/* <button className="btn" onClick={toggleAlert}>
         {" "}
         toggle button{" "}
       </button>
-      <Alert />
+      {showAlert && <Alert />} */}
+
+      {/* method 2 */}
+      <button
+        className="btn"
+        onClick={() => {
+          setAlert(!showAlert);
+        }}
+      >
+        {" "}
+        toggle button 2
+      </button>
+      {showAlert && <Alert />}
     </div>
   );
 };
