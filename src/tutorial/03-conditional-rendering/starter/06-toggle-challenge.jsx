@@ -20,7 +20,6 @@ const ToggleChallenge = () => {
         toggle button{" "}
       </button>
       {showAlert && <Alert />} */}
-
       {/* method 2 */}
       <button
         className="btn"
