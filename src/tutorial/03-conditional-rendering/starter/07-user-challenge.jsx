@@ -16,16 +16,14 @@ const UserChallenge = () => {
         <div>
           <h4> hello {user.name} </h4>
           <button className="btn" onClick={logout}>
-            {" "}
-            logout button{" "}
+            logout button
           </button>
         </div>
       ) : (
         <div>
           <h4> please login </h4>
           <button className="btn" onClick={login}>
-            {" "}
-            login button{" "}
+            login button
           </button>
         </div>
       )}
