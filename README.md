@@ -14,7 +14,7 @@ npm install && npm run dev
 
 #### useState
 
-1. Birthday Reminder
+1. Imports
 
 #### useEffect and Conditional Rendering
 
