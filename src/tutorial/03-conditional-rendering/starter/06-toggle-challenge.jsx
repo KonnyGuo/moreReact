@@ -27,7 +27,6 @@ const ToggleChallenge = () => {
           setAlert(!showAlert);
         }}
       >
-        {" "}
         toggle button 2
       </button>
       {showAlert && <Alert />}
