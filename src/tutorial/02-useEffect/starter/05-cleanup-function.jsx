@@ -20,12 +20,13 @@ const RandomComponent = () => {
   useEffect(() => {
     console.log("how many times will this show up");
     // need to set up an id for clear interval otherwise the setInterval will keep running
-    const intID = setInterval(() => {
+    setInterval(() => {
       console.log("from interval");
     }, 1000);
-    return () => {
-      clearInterval(intID);
-    };
+    // return () => {
+    //   clearInterval(intID);
+    //   console.log("cleanup");
+    // };
   }, []);
   return <h1> hello world </h1>;
 };
