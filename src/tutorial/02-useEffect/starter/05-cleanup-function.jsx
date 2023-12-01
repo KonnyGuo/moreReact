@@ -19,6 +19,13 @@ const RandomComponent = () => {
   // if you are displaying useEffect conditionally then it can render multiple times
   useEffect(() => {
     console.log("how many times will this show up");
+    // need to set up an id for clear interval otherwise the setInterval will keep running
+    const intID = setInterval(() => {
+      console.log("from interval");
+    }, 1000);
+    return () => {
+      clearInterval(intID);
+    };
   }, []);
   return <h1> hello world </h1>;
 };
