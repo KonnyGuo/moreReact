@@ -23,6 +23,7 @@ const RandomComponent = () => {
     const intID = setInterval(() => {
       console.log("from interval");
     }, 1000);
+    // cleanup function below
     return () => {
       clearInterval(intID);
       console.log("cleanup");
