@@ -28,7 +28,7 @@ const RandomComponent = () => {
   return <h1> hello world </h1>;
 };
 
-// you might need use effect anymore because of how jumbo up it can be. react article on why useEffect might not be needed anymore. There are many better alternative with logic in jsx or extra function in component. Major uses of useEffect includes data fetching. However there are now good libraries like react query to fetch data (1 line of code)
+// you might need use effect anymore because of how jumbo up it can be. react article on why useEffect might not be needed anymore. There are many better alternative with logic in jsx or extra function in component. Major uses of useEffect includes data fetching. However there are now good libraries like react query to fetch data (1 line of code). Caching takes care of caching and synchronization -> Good for bigger projects.
 
 // const RandomComponent = () => {
 //   // in any component we can set up useEffect, 2 arguments function and dependency array
