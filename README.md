@@ -1,5 +1,5 @@
 <!-- leetcode, react, data analytic, postre, vue, dev stuff, apply, res update, start, routine -->
-<!--    RESTART, LEET, CONCEPT, UPDATE, NEETCOD   -->
+<!--    RESTART, LEET, CONCEPT, UPDATE, NEETCODE, start   -->
 
 # React - Advanced Concepts
 
