@@ -1,7 +1,6 @@
 <!-- leetcode, react, data analytic, postre, vue, dev stuff, apply, res update, start, routine -->
 <!--    RESTART, LEET, CONCEPT, UPDATE, NEETCODE, start   -->
 <!--    array, string, dp, graphs, etc   -->
-<!--    3   -->
 
 # React - Advanced Concepts
 
